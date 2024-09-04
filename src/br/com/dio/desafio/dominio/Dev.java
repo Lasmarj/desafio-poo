@@ -35,7 +35,7 @@ public class Dev {
         this.conteudosConcluidos = conteudosConcluidos;
     }
 
-    public void increverBootcamp(BootCamp bootCamp){
+    public void inscreverBootcamp(BootCamp bootCamp){
         this.conteudosInscricao.addAll(bootCamp.getConteudos());
         bootCamp.getDevsInscritos().add(this); // dentro do bootcamp inscritos iremos adicionar o Dev
     }
